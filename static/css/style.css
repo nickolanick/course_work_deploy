@@ -1,0 +1,10 @@
+body {
+    padding: 30px;
+}
+
+a {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #000;
+    font-family: Arial, sans-serif;
+}
