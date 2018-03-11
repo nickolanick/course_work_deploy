@@ -24,4 +24,5 @@ def get_comments(url):
 
 
 if __name__ == '__main__':
-    print(get_html_content(input("enter name of product to EXPLORE!")))
+    for i in get_html_content(input("enter name of product to EXPLORE! for example iphone 6: ")):
+        print(i)
