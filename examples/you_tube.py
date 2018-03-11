@@ -22,4 +22,4 @@ def youtube_search(options):
     return videos
 
 if __name__ == '__main__':
-    print(youtube_search(input("enter name of product to EXPLORE! for example iphone 6: ")))
+    print(youtube_search(input("enter name of product to EXPLORE! for example iphone 6, macbook air, etc... : ")))
