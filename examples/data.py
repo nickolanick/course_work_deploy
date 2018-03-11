@@ -21,3 +21,7 @@ def get_comments(url):
         soup = BeautifulSoup(response.read().decode("utf-8"), "html.parser")
 
         return soup.find_all("div", "pp-review-text-i")
+
+
+if __name__ == '__main__':
+    print(get_html_content(input("enter name of product to EXPLORE!")))

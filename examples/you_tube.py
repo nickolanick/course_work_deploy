@@ -18,8 +18,8 @@ def youtube_search(options):
     videos = []
 
     for search_result in search_response.get("items", []):
-        videos.append("//www.youtube.com/embed/"+ search_result["id"]["videoId"])
-    print(videos)
+        videos.append("www.youtube.com/embed/"+ search_result["id"]["videoId"])
     return videos
 
-
+if __name__ == '__main__':
+    print(youtube_search(input("enter name of product to EXPLORE!")))

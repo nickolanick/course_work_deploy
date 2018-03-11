@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request
-from get_reviews import data
-from get_reviews.you_tube import *
+from examples import data
+from examples.you_tube import *
 
 app = Flask(__name__)
 
