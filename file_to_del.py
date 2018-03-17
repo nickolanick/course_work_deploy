@@ -10,17 +10,10 @@ def youtube_search(options):
                     developerKey="AIzaSyArhRiaMcsLQIyhfH2_c32OE3N9YjtDelA")
 
     search_response = youtube.search().list(
-        q=options + "review",
+        # the key on which it finds the video
+        q=options
         part="id,snippet",
         maxResults=5
     ).execute()
-
-    videos = []
-
-    for search_result in search_response.get("items", []):
-        videos.append("www.youtube.com/embed/" + search_result["id"]["videoId"])
-    return videos
-
-
-if __name__ == '__main__':
-    print(youtube_search(input("enter name of product to EXPLORE! for example iphone 6, macbook air, etc... : ")))
+    # outputs the json file
+    return search_response.get("items", [])
