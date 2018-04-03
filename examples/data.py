@@ -26,6 +26,7 @@ def get_comments(url):
             print(info_comments[elem].find_all("div","inline pp-comments-author-good-vote"))
             for g in range(3):
                 # print(info_comments[elem].find)
+                pass
         return soup.find_all("div", "pp-review-text-i")
 
 
