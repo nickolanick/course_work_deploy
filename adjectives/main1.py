@@ -1,5 +1,6 @@
 class Comment:
     """ Represents an abstract class. """
+
     def __init__(self, text, comment_characteristic=0, constructive=0):
         """ Initialize three fields. """
         self.text = text
@@ -18,9 +19,15 @@ class Comment:
         """ Abstract method. """
         raise NotImplementedError("It is subclass responsibility.")
 
+    def __str__(self):
+        """ Srt method. """
+        return "Comment:\nText: {}\nMark: {}\nConstructive:{}".format(
+            self.text, self.comment_characteristic, self.constructive)
+
 
 class Comments:
     """ Represents an abstract class. """
+
     def __init__(self, adjectives_container):
         """ Initialize three fields. """
         self.adjective_container = adjectives_container
@@ -38,6 +45,7 @@ class Comments:
 
 class AdjectivesContainer:
     """ Represents an abstract class. """
+
     def __init__(self):
         """ Initialize two empty lists. """
         self.positive_adjectives = dict()

@@ -9,7 +9,7 @@ def get_html_content(name_of_product):
         html = response.read().decode("utf-8")
         soup = BeautifulSoup(html, "html.parser")
         new_url = soup.find("div", class_="g-i-tile-i-box-desc").find("a")[
-                      "href"] + "/comments"
+                      "href"] + "/comments/sort=helpful/"
         data = map(lambda x: x.text, get_comments(new_url))
 
         return data
@@ -20,9 +20,16 @@ def get_comments(url):
     with urllib.request.urlopen(url) as response:
         soup = BeautifulSoup(response.read().decode("utf-8"), "html.parser")
 
+        info_comments = (
+            soup.find_all("div", "pp-review-inner"))
+        for elem in range(len(info_comments)):
+            print(info_comments[elem].find_all("div","inline pp-comments-author-good-vote"))
+            for g in range(3):
+                # print(info_comments[elem].find)
         return soup.find_all("div", "pp-review-text-i")
 
 
 if __name__ == '__main__':
-    for i in get_html_content(input("enter name of product to EXPLORE! for example iphone 6, macbook air, etc... : ")):
+    for i in get_html_content(input(
+            "enter name of product to EXPLORE! for example iphone 6, macbook air, etc... : ")):
         print(i)
