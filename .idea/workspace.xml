@@ -1,37 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2f2512c-cda5-45f3-9898-5c1e1e02f35e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flask(website_Code)/adjectives_deploy/abstract_classes_adjectives_Implementation_two.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flask(website_Code)/adjectives_deploy/abstract_classes_adjectives_main.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flask(website_Code)/adjectives_deploy/container.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flask(website_Code)/api_parse/data.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flask(website_Code)/api_parse/hotline_parse.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flask(website_Code)/api_parse/rozetka_parser_new.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flask(website_Code)/new_parsers_creatings/main2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flask(website_Code)/new_parsers_creatings/main3.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flask(website_Code)/ran_flask_server.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flask(website_Code)/static/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flask(website_Code)/templates/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/api_parsers/hotline_parse.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/api_parsers/you_tube_api.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/adjectives/main2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/adjectives/tests.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/adjectives/main1.py" afterPath="$PROJECT_DIR$/Flask(website_Code)/adjectives_deploy/abstract_classes_adjectives_Implementation.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/course_work_etap_3.docx" afterPath="$PROJECT_DIR$/coursework_etaps/course_work_etap_3.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/Reptort_1.docx" afterPath="$PROJECT_DIR$/coursework_etaps/course_work_etap_1.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/data.py" afterPath="$PROJECT_DIR$/Flask(website_Code)/adjectives_deploy/data.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/hotline_parse.py" afterPath="$PROJECT_DIR$/examples/api_parsers/hotline_parse.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/you_tube.py" afterPath="$PROJECT_DIR$/Flask(website_Code)/api_parse/you_tube.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/second_etap.docx" afterPath="$PROJECT_DIR$/coursework_etaps/course_work_etap_2.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/data_handled.html" afterPath="$PROJECT_DIR$/Flask(website_Code)/templates/data_handled.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
-    </list>
+    <list default="true" id="d2f2512c-cda5-45f3-9898-5c1e1e02f35e" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,11 +63,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="abstract_classes_adjectives_main.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="abstract_classes_adjectives_main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/adjectives/abstract_classes_adjectives_main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -431,11 +411,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39918116" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39918116" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26602176" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3306039" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3306039" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39918116" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -573,13 +553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-11">
           <caret line="1682" column="72" lean-forward="true" selection-start-line="1682" selection-start-column="72" selection-end-line="1682" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -813,6 +786,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/examples/adjectives/abstract_classes_adjectives_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -821,10 +802,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/adjectives/abstract_classes_adjectives_main.py">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="20">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
