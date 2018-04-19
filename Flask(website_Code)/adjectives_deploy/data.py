@@ -22,11 +22,9 @@ def get_comments(url):
 
         info_comments = (
             soup.find_all("div", "pp-review-inner"))
-        for elem in range(len(info_comments)):
-            print(info_comments[elem].find_all("div","inline pp-comments-author-good-vote"))
-            for g in range(3):
-                # print(info_comments[elem].find)
-                pass
+        # for elem in range(len(info_comments)):
+        #     for g in range(3):
+        #         pass
         return soup.find_all("div", "pp-review-text-i")
 
 
