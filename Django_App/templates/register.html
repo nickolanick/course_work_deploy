@@ -1,0 +1,23 @@
+{% extends "home.html" %}
+
+{% block data %}
+<div class="container"
+     style="background-color: rgba(255,255,255,0.2); padding: 200px 0px; margin-top:150px;">
+    <div class="form" align="center">
+        <h2 style="color: #fff">Registration !</h2>
+        <form method="post">{% csrf_token %}
+            <input name="login_name" type="text"
+                   placeholder="enter your login"
+                   aria-label="Search"><br>
+
+            <input name="password" type="password"
+                   placeholder="please enter your password"
+                   aria-label="Search"><br>
+            {% if error %}<h2 style="color: #fff"><small>{{error}}</small></h2>{% endif %}
+            <button class="btn btn-outline-success " type="submit">registrate
+            </button>
+        </form>
+    </div>
+</div>
+
+{% endblock %}

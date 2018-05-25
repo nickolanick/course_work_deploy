@@ -1,0 +1,47 @@
+{% extends "home.html" %}
+{% block data %}
+
+
+<div id="gtco-blog" data-section="blog">
+    <div class="gtco-container">
+        <div class="row">
+            {% for data in data_set %}
+            <div class="col-md-4" align="center">
+                <a href="#" class="gtco-card-item has-text">
+                    <figure style="border: 2px solid blue;">
+                        <div class="overlay"><i class="ti-plus"></i></div>
+                        <iframe id="video" width="380" height="250"
+                                src="\\{{ data.first_video }}" frameborder="0"
+                                allowfullscreen></iframe>
+                    </figure>
+                    <div class="gtco-text text-left text">
+                        <h2>{{data.name}} <small>average mark - {{ data.average_mark }}</small></h2>
+                        {{data.about}}
+                        <p class="gtco-category">{{dta.average_mark}}</p>
+                    </div>
+                    <button>About</button>
+                </a>
+            </div>
+            {% endfor %}
+            <div class="clearfix visible-lg-block visible-md-block"></div>
+            <div class="clearfix visible-sm-block"></div>
+
+        </div>
+    </div>
+</div>
+
+<!--<div class="container">-->
+<!--<div class="row"-->
+<!--style="color: #fff; background-color: rgba(255,0,255,0.1);">-->
+<!--{% for data in data_set %}-->
+<!--<div class="col-md-4">-->
+<!--<h3>{{data.name}}</h3>-->
+<!--<small>{{dta.average_mark}}</small>-->
+<!--<br>-->
+<!--{{data.about}}-->
+<!--</div>-->
+<!--{% endfor %}-->
+<!--</div>-->
+<!--</div>-->
+
+{% endblock %}

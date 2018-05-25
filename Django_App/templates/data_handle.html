@@ -1,0 +1,95 @@
+{% extends "home.html" %}
+{% block data_new %}
+
+
+<div class="data">
+    <div class="container-fluid" id="ninghty">
+
+
+        <!--<div id="tabs">-->
+        <!--<div class="tab whiteborder">About product</div>-->
+        <!--<div class="tab">mark</div>-->
+        <!--<div class="tab">Tab 3</div>-->
+        <!--<div class="tabContent">{{ about_item }}</div>-->
+        <!--<div class="tabContent">2</div>-->
+        <!--<div class="tabContent">3</div>-->
+        <!--</div>-->
+        <h2>{{mark}}</h2>
+        <h2 id="product_name">{{product_name}}</h2>
+        <div class="row">
+            <div class="col-md-8" id="about">
+                {{ about_item }}
+                <br>
+                <hr>
+            </div>
+            <div class="col-md-4" style="height: 800px;overflow: scroll">
+
+                <ol id="parent">
+                    {% for elem in data %}
+                    <li>{{ elem }}</li>
+                    {% endfor %}
+                </ol>
+            </div>
+        </div>
+
+        <div class="container-fluid" style="border-top: 4px black;">
+            <div class="row">
+
+                {% for elem in videos %}
+                <div class="col-md-4">
+                    <iframe id="video" width="380" height="250"
+                            src="\\{{ elem }}" frameborder="0"
+                            allowfullscreen></iframe>
+                </div>
+                {% endfor %}
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--<div class="container-fluid">-->
+<!--<div class="row">-->
+<!--<div class="col-md-12">-->
+<!--{% for elem in comments_hotline %}-->
+<!--{{ ele }}-->
+<!--{% endfor %}-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"
+        integrity="sha384-feJI7QwhOS+hwpX2zkaeJQjeiwlhOP+SdQDqhgvvo1DsjtiSQByFdThsxO669S2D"
+        crossorigin="anonymous"></script>
+<script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+
+{% if extra %}
+<script>
+
+    //    function create_post() {
+    //    console.log("create post is working!") ;// sanity check
+    $.ajax({
+        url: "create_post/", // the endpoint
+        type: "GET", // http method
+        data: {'user_input': $("#product_name").html()}, // data sent with the post request
+        dataType: "text",
+        cache: "false",
+        // handle a successful response
+
+        success: function (data) {
+            data = data.split("~");
+            data.forEach(function (element) {
+                $('#parent').append('<li>' + element + '</li>');
+            });
+
+
+        }
+    })
+    ;
+    //};
+</script>
+{% endif %}
+</div>
+{% endblock %}
