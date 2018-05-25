@@ -4,7 +4,7 @@ Hi! this web site provides you possibility to look almost gor eny technology and
 # Files
 <ul>
 <li>
-Flask folder: it has the main file which you can run with your terminal (firstly install all requirements)
+Django folder: it has all of the code for the website (firstly install all requirements) and then run manage.py file
 </li>
 <li>
 coursework_etaps folder: it has all description about this project and how it was created
