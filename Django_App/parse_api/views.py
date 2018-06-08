@@ -39,14 +39,17 @@ def home(request):
             return render(request, "home.html",
                           {"error": error, "user_name": request.user.username})
             # return HttpResponseRedirect("/login")
-        Data.objects.create(
-            name=request.POST.get('text_field'),
-            about=description,
-            comments=final_comment,
-            average_mark=averagemark,
-            youtube=videos,
-            first_video=videos[0]
-        )
+        try:
+            Data.objects.create(
+                name=request.POST.get('text_field'),
+                about=description,
+                comments=final_comment,
+                average_mark=averagemark,
+                youtube=videos,
+                first_video=videos[0]
+            )
+        except:
+            pass
         return render(request, "data_handle.html",
                       {"data": final_comment.split("~"),
                        "videos": videos,
@@ -58,7 +61,6 @@ def home(request):
 
 
 def create_post(request):
-    # if request.method == "GET":
     print(request.GET["user_input"])
     comments, mark = get_comments_other(request.GET["user_input"])
     return HttpResponse(comments)
