@@ -1,4 +1,5 @@
 # Welcome to Our project!
+Work of Nick Biliayev and Andrii Prysiazhnyk
 
 Hi! this web site provides you possibility to look almost gor eny technology and get the price of the product where to get it with the lowest price, also it analysis the comments and reviews on the product to give you better understanding of what you are going to buy and much more ..
 # Files
